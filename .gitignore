@@ -1,6 +1,44 @@
+# Dependencies
 node_modules
-dist
-.DS_Store
+/.pnp
+.pnp.js
+
+# Build
+/dist
+/build
 server/public
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+*.pem
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Typescript
 vite.config.ts.*
+*.tsbuildinfo
+next-env.d.ts
+
+# Misc
 *.tar.gz
+.cache/
+.parcel-cache/
