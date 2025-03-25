@@ -52,11 +52,11 @@ export default function Hero() {
                     <div className="grid grid-cols-2 gap-4 py-3">
                       <div className="p-3 bg-gray-100 rounded-lg">
                         <div className="text-sm text-gray-500">Conversions</div>
-                        <div className="font-bold text-xl">324</div>
+                        <div className="font-bold text-xl text-gray-900">324</div>
                       </div>
                       <div className="p-3 bg-gray-100 rounded-lg">
                         <div className="text-sm text-gray-500">Avg. Sale</div>
-                        <div className="font-bold text-xl">$39.67</div>
+                        <div className="font-bold text-xl text-gray-900">$39.67</div>
                       </div>
                     </div>
                   </div>
