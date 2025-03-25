@@ -53,7 +53,7 @@ The project follows a modern React/TypeScript architecture:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/digital-product-sales-funnel.git
+   git clone https://github.com/zylerkade/digital-product-sales-funnel.git
    cd digital-product-sales-funnel
    ```
 
@@ -71,7 +71,7 @@ The project follows a modern React/TypeScript architecture:
    yarn dev
    ```
 
-4. Open your browser and visit `http://localhost:5000`
+4. Open your browser and visit `http://localhost:3000`
 
 ## 📝 Notes
 
