@@ -10,6 +10,7 @@ import LeadCaptureSection from '@/components/LeadCaptureSection';
 import Footer from '@/components/Footer';
 import CheckoutModal from '@/components/CheckoutModal';
 import BackToTop from '@/components/BackToTop';
+import PortfolioBanner from '@/components/PortfolioBanner';
 import { useCheckout } from '@/hooks/use-checkout';
 import { PricingPlan } from '@/types';
 
@@ -85,6 +86,7 @@ export default function LandingPage() {
 
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col antialiased text-gray-800">
+      <PortfolioBanner />
       <Header />
       
       <main>
