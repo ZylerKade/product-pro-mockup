@@ -2,7 +2,7 @@
 
 A high-conversion landing page template for digital products, including lead capture and mock checkout functionality.
 
-![Project Demo Screenshot](generated-icon.png)
+You can preview a live version of this landing page at https://productpro.solomain.com
 
 ## 🚀 Features
 
