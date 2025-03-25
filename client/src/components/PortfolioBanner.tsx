@@ -14,7 +14,7 @@ export default function PortfolioBanner() {
           </div>
           <div className="flex items-center">
             <span className="mr-3 font-medium hidden sm:inline-block">Need a Developer? Work with Me!</span>
-            <Button asChild size="sm" variant="outline" className="border-white text-white hover:bg-white/20">
+            <Button asChild size="sm" className="bg-yellow-400 text-black hover:bg-yellow-300 border-none font-medium">
               <a href="https://solomain.com/upwork" target="_blank" rel="noopener noreferrer" className="flex items-center">
                 Contact Me <ExternalLink className="ml-2 h-4 w-4" />
               </a>
