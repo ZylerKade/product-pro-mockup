@@ -7,9 +7,9 @@ export default function PortfolioBanner() {
       <div className="container mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="mb-4 sm:mb-0 text-center sm:text-left">
-            <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2 sm:mb-0">
+            <div className="flex flex-col sm:flex-row items-center sm:items-center mb-2 sm:mb-0">
               <span className="bg-yellow-400 text-black px-2 py-1 rounded mb-2 sm:mb-0 sm:mr-2 inline-block">MOCK PROJECT</span>
-              <span className="text-sm font-medium text-center sm:text-left">
+              <span className="text-sm font-medium text-center sm:text-left flex items-center">
                 This is a portfolio demonstration only. No actual products or services are available.
               </span>
             </div>
