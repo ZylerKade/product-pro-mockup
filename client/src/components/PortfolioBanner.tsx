@@ -6,14 +6,16 @@ export default function PortfolioBanner() {
     <div className="bg-black text-white py-3 px-4">
       <div className="container mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-center">
-          <div className="mb-3 sm:mb-0 text-center sm:text-left">
-            <p className="text-sm font-medium">
-              <span className="bg-yellow-400 text-black px-2 py-1 rounded mr-2">MOCK PROJECT</span>
-              This is a portfolio demonstration only. No actual products or services are available.
-            </p>
+          <div className="mb-4 sm:mb-0 text-center sm:text-left">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2 sm:mb-0">
+              <span className="bg-yellow-400 text-black px-2 py-1 rounded mb-2 sm:mb-0 sm:mr-2 inline-block">MOCK PROJECT</span>
+              <span className="text-sm font-medium text-center sm:text-left">
+                This is a portfolio demonstration only. No actual products or services are available.
+              </span>
+            </div>
           </div>
-          <div className="flex items-center">
-            <span className="mr-3 font-medium hidden sm:inline-block">Need a Developer? Work with Me!</span>
+          <div className="flex flex-col sm:flex-row items-center">
+            <span className="mr-0 sm:mr-3 font-medium mb-2 sm:mb-0 text-center">Need a Developer? Work with Me!</span>
             <Button asChild size="sm" className="bg-yellow-400 text-black hover:bg-yellow-300 border-none font-medium">
               <a href="https://solomain.com/upwork" target="_blank" rel="noopener noreferrer" className="flex items-center">
                 Contact Me <ExternalLink className="ml-2 h-4 w-4" />
